@@ -35,4 +35,14 @@ This will result in 2 possible paths:
 - If we send a string, it will let us know
 - If there is no error, then it will work it out as normal resulting in +> In 5 years Kryst, will be 20 yeas.
 
-# Studies
+
+
+PropTypes.any (will get any)
+         .oneOfType([PropTypes.string, PropTypes.number])   => one of the props provided
+         .oneOf(['loading', 'ready'])
+         .array (array of whatever)
+         .arrayOf(PropTypes.number)
+
+         .arrayOf(
+            PropTypes.oneOfType([PropTypes.number, PropTypes.string])
+         )
