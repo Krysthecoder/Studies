@@ -30,6 +30,3 @@ return(
 
 )
 
-
-
-##  Class Component ##
