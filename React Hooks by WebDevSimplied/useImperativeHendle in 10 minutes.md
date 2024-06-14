@@ -108,5 +108,6 @@ function CustomInput(props, ref) {
 
 export default React.forwardRef(CustomInput)
 
-useImperativeHandle takes an optional third parameter which is a dependency array. This works just like useEffect in that anytime any of the values in the dependency array change the function passed to useImperativeValue will be rerun and update the value of your ref. This is useful if you depend on certain values like the props.value in our example. If you do not pass this third parameter to useImperativeHandle it will rerun the function you pass to useImperativeHandle and update your ref every time the component is rendered.
+[useImperativeHandle] takes an optional third parameter which is a dependency array. This works just like [useEffect] in that anytime any of the values in the dependency array change the function passed to [useImperativeValue] will be rerun and update the value of your ref. This is useful if you depend on certain values like the props.value in our example. If you do not pass this third parameter to [useImperativeHandle] it will rerun the function you pass to [useImperativeHandle] and update your ref every time the component is rendered.
+
 
