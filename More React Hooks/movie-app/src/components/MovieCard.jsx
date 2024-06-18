@@ -12,7 +12,11 @@ export function MovieCard({ movie }) {
           className={styles.movieImage}
           src={imageUrl}
           alt={movie.title} />
-        <div>{movie.title}</div>
+        <div>{movie.title}
+          <span className= { styles.movieRate }>
+            {movie.vote_average}
+          </span>
+        </div>
       </Link>
     </li>
   )
