@@ -1,6 +1,7 @@
 #   Next js Tutorial for Beginners | Nextjs 13 (App Router) with TypeScript
 
 > VideoLink: https://www.youtube.com/watch?v=ZVnjOPwW4ZA
+> App github source: https://github.com/Krysthecoder/NextJs-app
 
 What is Next.Js?
 
