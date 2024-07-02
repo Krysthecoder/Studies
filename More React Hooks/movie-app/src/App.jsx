@@ -19,7 +19,7 @@ export function App() {
           <Route exact path="/movies/:movieId" element={<MovieDetails />} />
           <Route path="/" element={<LandingPage />} />
         </Routes>
-      </main>
+      </main> 
     </Router>
   );
 }
